@@ -1,14 +1,14 @@
 const contractAddress = "0xc8FDbc7FfAf31F4B2B08D08b4a53608bE873E925"; //Replace with your own contract address
 const chain = 'polygon'; // rinkeby or polygon
 
-const welcome_h1 = "Welcome to DYAK, The Rich Boys Club NFT Project!!!";
+const welcome_h1 = "Welcome to DYAK NFT Project!!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
 const welcome_p = 'DRBC is a collection of black avatars taking on the Metaverse in fresh ways. With each series comes a host of adventures in unique NFTs styles.';
-const h1_presale_coming_soon = "DYAK NFT Drop Coming Soon!!";
-const h1_presale_mint = "DYAK Pre-Sale Minting Open!!";
-const h1_public_mint = "DYAK Public Minting Open!!";
-const h2_presale_coming_soon = "DYAK Pre-Sale Minting Countdown";
-const h2_presale_mint = "DYAK Public Minting Countdown";
+const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
+const h1_presale_mint = "Pre-Sale Minting Open!!";
+const h1_public_mint = "Public Minting Open!!";
+const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
+const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "We are working hard to launch the NFT Collection. Stay tuned for DRBC updates!";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.. 😢";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale! 🎉";
