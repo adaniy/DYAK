@@ -8,11 +8,11 @@
   --font-primary: "Alegreya", sans-serif;
   --font-secondary: "Barlow", sans-serif;
   --font-code: "Bebas Neue", cursive;
-  --bg-color: #ff0d7b;
-  --bg-color-transparent: #ff00fb7b;
-  --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #11041f;
+  --bg-color: #b7e3e4;
+  --bg-color-transparent: #00d5ff7b;
+  --font-color: #f03f35;
+  --btn-bg-color: #f03f35;
+  --accent-color: #431448;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
