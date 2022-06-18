@@ -173,18 +173,18 @@ const PUBLIC_MINT_START_DATE = "2022-06-09T12:30:48+00:00"; // This is required.
 const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xf43701a88E3FA55b7e5BF4D92DfaD91693982D6f"; // Address that will receive the royalty
-const BASE_URI = null; // only update if you want to manually set the base uri
+const BASE_URI = "ipfs://bafybeigwecbvvxpvvr35cksrdssluvjdue3yjpa6td2ovlecgnejj2b3uy/"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = ["0xf43701a88E3FA55b7e5BF4D92DfaD91693982D6f","0x3077bc605AD170E94977F2f5eCDb7c357525EB7F","0x77B8bF7908bbA4455Be77D859117bd7e2318ebD1","0xB43F981e54884D259585a81008aB554E87A1Db76","0x1E1fD00eaD8862459932ad137ce4b7C6ed65Ace8","0x14E1F701fAd57e84b23F759e59694CdddBf858c6","0x38BCC3614efc1fE205599229B29513214ce1e603","0xC41eaEd7A87Ac96cc5128D4821aBC7D868Dd39ED"]; // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
-let CONTRACT_ADDRESS = "0xc8FDbc7FfAf31F4B2B08D08b4a53608bE873E925"; // If you want to manually include it
+let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
 
 // Generic Metadata is optional if you want to reveal your NFTs
 const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
 const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "DRBC is a collection of black avatars taking on the Metaverse in fresh ways. With each serie comes a host of adventures in unique styles."; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/bafybeie56hknup7hb5tcnfokoeul4gurjr3zbnu27qp3km6e5mmx6r64ha"; // Replace with your generic image that will display for all NFTs pre-reveal.
+const GENERIC_DESCRIPTION = null; // Replace with what you want the generic descriptions to say.
+const GENERIC_IMAGE = null; // Replace with your generic image that will display for all NFTs pre-reveal.
 
 // Automatically set contract address if deployed using the deployContract.js script
 try {
